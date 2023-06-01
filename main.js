@@ -61,20 +61,20 @@ function moodRing(){
 document.getElementById("mood-ring").addEventListener("click", moodRing);
 
 
+//relays which button is pushed via tying in click event to which ID
 
 function handleClick(event) {
     var buttonId = event.target.id;
+    selectedButtonId = random_moods.find(mood => mood.mood === event.target.dataset.mood); // Assign mood object to selectedButtonId variable
     console.log("Clicked button ID: " + buttonId);
-    document.getElementById("myMood").innerHTML = buttonId.mood
+    document.getElementById("myMood").innerHTML = buttonId
 }
 
 var buttons = document.querySelectorAll('.choices button');
 buttons.forEach(function(button) {
     button.addEventListener('click', handleClick);
 });
-
-
-
+console.log(handleClick)
 
 
 
