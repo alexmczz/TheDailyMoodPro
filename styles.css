@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    font-size: 4em;
+}
+
