@@ -11,7 +11,7 @@ const cur_mood =(mood, definition) =>{
 //creating mood objects using object template above
 
 let addled = cur_mood("addled 😖","Confused")
-let affravated = cur_mood("affravated 😠","Incited especially deliberately")
+let aggravated = cur_mood("aggravated 😠","Incited especially deliberately")
 let antisocial = cur_mood("antisocial 😐","Shunning the society of others")
 let apathetic = cur_mood("apathetic 😶", "Feeling little or no emotion")
 let astonished = cur_mood("astonished 😮","Filled with sudden wonder or amazement")
@@ -25,7 +25,7 @@ let copacetic = cur_mood("copacetic 🤷‍♂️", "Very satisfactory")
 let cranky = cur_mood("cranky 😡", "Ill0tempered/ grouchy")
 let crazed = cur_mood("crazed 🤪", "Driven insane, or as if insane")
 let deprived = cur_mood("deprived 😢", "To remove or withhold something from the enjoyment or possession")
-let dreamlinke = cur_mood("dreamlike 😪", "surreal, or resembling a dream")
+let dreamlike = cur_mood("dreamlike 😪", "surreal, or resembling a dream")
 let emo = cur_mood("Emo 😞", "Essentially sad or emotional")
 let fabulous = cur_mood("fabulous 🤩", "Barely believable; astonishing")
 let focused = cur_mood("focused 🤨", "to bring into focus")
@@ -41,12 +41,12 @@ let managerial = cur_mood("managerial 😎", "to manage or have characteristics 
 
 //creating list of moods to interate through
 const random_moods = [
-    addled, affravated, antisocial, apathetic, astonished,
-     borderline, bouncy, cantankerous, chill, chipper, 
-     contemplative, copacetic, cranky, crazed, deprived, 
-     dreamlinke, emo, fabulous, focused, fuzzy, giddy,
-     grumpy, heroic, hunky_dory, inspired, listless, managerial
-    ]
+    addled, aggravated, antisocial, apathetic, astonished,
+    borderline, bouncy, cantankerous, chill, chipper, 
+    contemplative, copacetic, cranky, crazed, deprived, 
+    dreamlike, emo, fabulous, focused, fuzzy, giddy,
+    grumpy, heroic, hunky_dory, inspired, listless, managerial
+]
 
 
 
